@@ -270,6 +270,7 @@ class ProductsRepository {
         price: 58,
       ),
     ];
+
     if (category == Category.all) {
       return allProducts;
     } else {
